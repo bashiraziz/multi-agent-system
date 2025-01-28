@@ -89,12 +89,12 @@ export function AgentCommunicationFlow({ messages }: AgentCommunicationFlowProps
                   <div
                     className={`w-6 h-6 ${fromAgent?.color} rounded-full flex items-center justify-center text-white mr-1`}
                   >
-                    <fromAgent.icon className="w-4 h-4" />
+                    {fromAgent && <fromAgent.icon className="w-4 h-4" />}
                   </div>
                   <div
                     className={`w-6 h-6 ${toAgent?.color} rounded-full flex items-center justify-center text-white ml-1`}
                   >
-                    <toAgent.icon className="w-4 h-4" />
+                    {toAgent && <toAgent.icon className="w-4 h-4" />}
                   </div>
                 </div>
                 <div className="bg-white bg-opacity-50 rounded p-2">
