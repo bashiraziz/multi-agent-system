@@ -14,7 +14,7 @@ export function Navigation() {
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-2">
             <AgentiaLogo />
-            <span className="text-2xl font-bold text-[#45B7D1] hover:text-[#FF6B6B] transition-colors duration-300">
+            <span className="text-2xl font-bold text-emerald-600 hover:text-emerald-700 transition-colors duration-300">
               Agentia
             </span>
           </Link>
